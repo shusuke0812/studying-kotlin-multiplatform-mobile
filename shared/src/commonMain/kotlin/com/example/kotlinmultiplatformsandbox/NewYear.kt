@@ -1,5 +1,5 @@
 package com.example.kotlinmultiplatformsandbox
-
+/*
 import kotlinx.datetime.*
 
 fun daysUntilNewYear(): Int {
@@ -7,3 +7,4 @@ fun daysUntilNewYear(): Int {
     val closestNewYear = LocalDate(today.year + 1, 1, 1)
     return today.daysUntil(closestNewYear)
 }
+*/
