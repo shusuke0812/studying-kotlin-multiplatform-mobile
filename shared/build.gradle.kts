@@ -54,7 +54,7 @@ kotlin {
             iosArm64Main.dependsOn(this)
             //iosSimulatorArm64Main.dependsOn(this)
             dependencies {
-                implementation("ios.ktor:ktor-client-darwin:$ktorVersion")
+                implementation("io.ktor:ktor-client-darwin:$ktorVersion")
             }
         }
         val iosX64Test by getting
