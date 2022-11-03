@@ -1,6 +1,6 @@
 plugins {
     kotlin("multiplatform")
-    //kotlin("plugin.serialization") version "1.7.20" TODO: build error解消
+    kotlin("plugin.serialization") version "1.7.20"
     id("com.android.library")
 }
 
@@ -76,10 +76,11 @@ kotlin {
 }
 
 android {
-    compileSdk = 31
+    compileSdk = 33
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
         minSdk = 25
-        targetSdk = 31
+        targetSdk = 33
     }
+    namespace = "com.example.kotlinmultiplatformsandbox"
 }
